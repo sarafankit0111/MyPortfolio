@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Default property -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ankit's Portfolio</title>
+        <!-- normalize -->
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
+        <!-- font-awesome css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" 
+        integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- google fonts -->
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <!-- logo -->
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">    
+            </div>
+            <!-- navbar -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>    
+        </header>
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Ankit Saraf P</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">MCA Student</p>
+            <img src="img/Photo.jpg" alt="Ankit" class="intro__img">
+        </section>
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <!-- service -->
+                <div class="service">
+                    <h3>Programming</h3>
+                    <p>
+                        I love to do coding in java. I like to build websites and i am building it for 
+                        my friends, family and neigbhors for their business. As i am a quick leaner, I am learning new technologies.
+                    </p>
+                </div>  
+                <!-- / service -->
+                <!-- service -->
+                <div class="service">
+                    <h3>Gaming</h3>
+                    <p>
+                        I love to play games from my childhood. Normally, I play multiplayer online games like fortnite, Pubg, COD 
+                        and Mission based games like GTA, Far Cry, Bully to gain many skills. I want to develop a best game in my future.
+                    </p>
+                </div>  
+                <!-- / service -->
+                <!-- service -->
+                <div class="service">
+                    <h3>Certifications</h3>
+                    <P>
+                        I have been certified in Ethical Hacking Expert held by TECHDEFENCE workshop, Building Responsive Websites 
+                        held by Crampete workshop, Java Bootcamp with Spring from Udemy - 2021.
+                    </P>
+                </div>  
+                <!-- / service --> 
+            </div>  
+            <!-- / services -->
+            <a href="#work" class="btn">My Projects</a>
+        </section>
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">
+                Who I Am
+            </h2>
+            <p class="section__subtitle section__subtitle--about">
+                I am Ankit Saraf P, I have been born and brought up in Chennai.
+            </p>
+            <div class="about-me__body">
+                <p>
+                    I'm currently pursuing Master’s degree in Computer Application at College of Engineering Guindy, Anna University. I did my B.Sc. in Computer Science from SRM Arts and Science College. 
+                </p>
+                <p>
+                    I attended a workshop on “Building Responsive Websites” last year where I learnt about designing the UI. After attending this workshop, I started enjoying designing and started with my sample projects to explore more.
+                </p>
+                <p>
+                    Apart from this, I like playing online games initially I was playing it for fun but later I observed it improves strategizing skills, leadership quality if it’s a multiplayer game. 
+                </p>
+            </div>
+            <img src="img/Photo.jpg" alt="" class="about-me__img">
+        </section>
+        <!-- My Projects -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Projects</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range Projects</p>
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/1.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/2.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/3.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 04 -->
+                <!-- <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/1.jpg" alt="" class="portfolio__img">
+                </a> -->
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- mailto -->
+            <a href="mailto:sarafankit0111@gmail.com" class="footer__link">sarafankit0111@gmail.com</a>
+            <!-- social media -->
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.reddit.com/user/sarafankit0111">
+                        <i class="fab fa-reddit"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/ankitsaraf0111">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/sarafankit0111">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/ankit-saraf-01/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <!-- JavaScript -->
+        <script src="js/index.js"></script> 
+    </body>    
+</html>
